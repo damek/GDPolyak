@@ -5,8 +5,6 @@ import numpy as np
 from scipy.sparse.linalg import LinearOperator
 from scipy.sparse.linalg import lsmr, lsqr
 from typing import Callable, Iterable, Optional
-import linops
-from enum import Enum
 
 
 
@@ -22,7 +20,6 @@ class GDPolyak(Optimizer):
             grad_size_tol=1e-5,
             print_freq=10,
             distance_func: Optional[Callable] = None,
-            polyak_increase_factor=1.001
     ):
         super(GDPolyak, self).__init__(params, dict())
 
