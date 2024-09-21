@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gdpolyak"
+version = "0.1"
+authors = [
+	{ name = "Damek Davis", email = "damek@wharton.upenn.edu" },
+    { name = "Liwei Jiang", email = "ljiang306@gatech.edu" },
+]
+description = "A prototype Pytorch implementation of GDPolyak."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent"
+]
+dependencies = [
+	"numpy>=1.24.2",
+	"scipy>=1.11.2",
+	"torch>=2.0.0",
+]
+
+[project-urls]
+"Homepage" = "https://github.com/COR-OPT/gdpolyak"
+"Bug Tracker" = "https://github.com/COR-OPT/gdpolyak/issues"
