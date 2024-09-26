@@ -44,7 +44,7 @@ def plot_gdpolyak_results(results, fig_width=7, fig_height=7, plot_smallest_so_f
                          marker=markers[i % len(markers)], markevery=max(1, len(result['history_dist_to_opt_solution'])//20),
                          linewidth=2.5, markersize=8)
     plt.xlabel('Iterations', fontsize=16)
-    plt.ylabel('Distance to Optimal Solution', fontsize=16)
+    plt.ylabel('Distance to optimal solution', fontsize=16)
     # plt.title(f'Distance to Optimal Solution')
     plt.legend(loc='best', fontsize=16)
     plt.grid(True, linestyle='--', alpha=0.7)
@@ -61,7 +61,7 @@ def plot_gdpolyak_results(results, fig_width=7, fig_height=7, plot_smallest_so_f
                      marker=markers[i % len(markers)], markevery=max(1, len(result['step_size_list'])//20),
                      linewidth=2.5, markersize=8)
     plt.xlabel('Iterations', fontsize=16)
-    plt.ylabel('Step Size', fontsize=16)
+    plt.ylabel('Stepsize', fontsize=16)
     # plt.title(f'Step Size')
     plt.legend(loc='best', fontsize=16)
     plt.grid(True, linestyle='--', alpha=0.7)
