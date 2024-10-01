@@ -11,4 +11,4 @@ $ python -m pip install -e .
 ```
 
 [1]: D. Davis, D. Drusvyatskiy, and L. Jiang. Gradient descent with adaptive stepsize converges (nearly) linearly under fourth-order growth
- (2024). https://arxiv.org/abs/??
+ (2024). [https://arxiv.org/abs/2409.19791](https://arxiv.org/abs/2409.19791)
